@@ -1,0 +1,5 @@
+wv = input("weight = ")
+hv = input("height = ")
+new_height = float(hv)
+BMI = (int(wv) / (new_height * new_height))
+print(int(BMI))
