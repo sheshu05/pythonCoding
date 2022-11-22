@@ -1,0 +1,11 @@
+#Life in Weeks
+
+age = input("What is your current age? ")
+
+age_remaining = (90 - int(age))
+
+days = (age_remaining * 365)
+weeks = (age_remaining * 52)
+months = (age_remaining * 12)
+
+print(f"You have {days} days, {weeks} weeks, and {months} months left.")
