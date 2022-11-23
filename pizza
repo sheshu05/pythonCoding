@@ -1,0 +1,22 @@
+print("Welcome to pizza Deliveries!")
+bill = 0
+size = input("What size pizza do you want? S,M or L")
+if (size == "S"):
+    bill += 15
+elif (size == "M"):
+    bill +=20
+else:
+    bill +=25
+
+
+want_peperoni = input("Do you want pepperoni: Y or N")
+want_extra_cheese = input("Do you want extra cheese: Y or N")
+if (want_peperoni == "Y"):
+    if size =="S" :
+        bill +=2
+    else:
+        bill +=3
+if want_extra_cheese == "Y" :
+    bill += 1
+
+print(f"You finall bill is ${bill}")
