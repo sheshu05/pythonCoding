@@ -1,0 +1,9 @@
+Split Function will ensure that it devides the output by the parameter and input that as a list.
+# 🚨 Don't change the code below 👇
+student_heights = input("Input a list of student heights ").split()
+for n in range(0, len(student_heights)):
+  student_heights[n] = int(student_heights[n])
+# 🚨 Don't change the code above 👆
+Average_height = float(sum(student_heights) / len(student_heights))
+Average_height_new = int(round(Average_height, 0))
+print(f"{Average_height_new}")
