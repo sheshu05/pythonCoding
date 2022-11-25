@@ -1,0 +1,5 @@
+student_score = input("Input a list of student scores ").split()
+for n in range(0, len(student_score)):
+  student_score[n] = int(student_score[n])
+highscore = max(student_score)
+print(f"The highest score in the class is: {highscore}")
